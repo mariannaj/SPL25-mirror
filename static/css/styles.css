@@ -1,0 +1,101 @@
+<style>
+.button-group {
+  position: relative;
+  display: inline-block;
+  margin: 1rem 0; 
+}
+
+  .button-group button + button {
+    margin-left: 5px; 
+}
+
+
+.subheader {
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-style: oblique;
+    padding-top: 1rem;
+
+}
+
+.celebration {
+    padding-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.celebration-title {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 32em) {
+   h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.callout.intro {
+    font-size: 0.9em;
+    line-height: 1.2;
+}
+
+.subheader {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.celebration {
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.celebration-title {
+    font-weight: bold;
+}
+}
+
+@media screen and (min-width: 32em) {
+.titleblock {
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.callout.intro p {
+    color: #222222;
+    line-height: 1.45;
+    padding-left: 3em;
+    padding-right: 3em;
+
+}
+.callout.intro {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    margin-left: 5em;
+    margin-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+}
+a  { color: #007d4e;}
+
+a:hover { color: #009d6e;
+text-decoration: underline;}
+
+ul {
+    line-height: 1.4;
+}
+</style>
