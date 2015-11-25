@@ -23,6 +23,12 @@
     font-size: 1.6rem;
 }
 
+.registration {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+
+    font-size: 1.3rem;
+}
 .celebration-title {
     font-weight: bold;
 }
