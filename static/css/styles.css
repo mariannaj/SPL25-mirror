@@ -1,4 +1,29 @@
-<style>
+dt { 
+    display: inline;
+}
+
+dd { 
+    display: inline;
+}
+
+ul.timelocation li {
+    list-style-type: none;
+}
+
+.time {
+    font-weight: 700;
+    padding-right: 1rem;
+    display: inline-block;
+    width: 8rem;
+    text-align: right;
+}
+
+.location {
+    margin-bottom: 1rem;
+    margin-top: -0.5rem;
+    font-weight: 400;
+}
+
 .button-group {
   position: relative;
   display: inline-block;
@@ -104,4 +129,3 @@ text-decoration: underline;}
 ul {
     line-height: 1.4;
 }
-</style>
