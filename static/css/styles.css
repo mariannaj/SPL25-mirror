@@ -58,6 +58,9 @@ ul.timelocation li {
     font-weight: bold;
 }
 
+.posters tr > td:first-child + td {
+    font-weight: 500;
+}
 
 @media screen and (max-width: 32em) {
    h1 {
@@ -84,7 +87,6 @@ ul.timelocation li {
     font-weight: bold;
 }
 }
-
 @media screen and (min-width: 32em) {
 .titleblock {
     padding-top: 1rem;
